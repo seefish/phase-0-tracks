@@ -16,3 +16,5 @@
 
 * What is a merge conflict?
   * A merge conflict occurs when two branches you are trying to merge make changes to the same part of the same file. In these cases Git won't be able to figure out which version to use.
+
+Adding a few words for second release
