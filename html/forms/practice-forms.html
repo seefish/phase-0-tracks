@@ -4,6 +4,52 @@
     <title></title>
   </head>
   <body>
+    <form name="adventure" action="success.html" method="post">
+      <fieldset>
+        <div>
+          <label>Full name:</label>
+          <input type="text" name="fullname">
+        </div>
 
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email">
+        </div>
+
+        <div>
+          <label>Password:</label>
+          <input type="password" name="password">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <label>Your Car Model:</label>
+          <input type="text" name="CarModel" placeholder="What model car?">
+        </div>
+
+        <div>
+          <label>Type of car:</label>
+          <select name="car">
+            <option value="sports">Sports</option>
+            <option value="suv">SUV</option>
+            <option value="truck">Truck</option>
+            <option value="sedan">Sedan</option>
+          </select>
+        </div>
+
+        <div>
+          <label>When did you get your car?</label>
+          <input type="date" name="date">
+        </div>
+
+        <div>
+          <input type="checkbox" name="cb-agree" value="agree">
+          I authorize the use of this form for research purposes.
+        </div>
+      </fieldset>
+
+      <button type="submit">Submit </button>
+    </form>
   </body>
 </html>
